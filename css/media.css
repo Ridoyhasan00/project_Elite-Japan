@@ -1,0 +1,243 @@
+
+@media(min-width:3200px){
+    .iphone {
+        width: 23%;
+        bottom: 20%;
+        right: 10%;
+    }
+    .big_name {
+        margin-top: 35%;
+    }
+    .showcase_item img {
+        width: 100%;
+        min-height: 23vh;
+    }
+    
+    
+}
+@media(min-width:2500px){
+    svg text {
+        font-size: 170px;
+    }
+    .big_name {
+        margin-top: 25%;
+    }
+    .showcase_item img {
+        min-height: 35vh;
+    }
+    .service_question .box_item {
+        min-height: 24vh;
+    }
+    .Samsung {
+        bottom: 25%;
+    }
+}
+@media(min-width:1920px){
+    .Samsung {
+        width: 68%;
+        right: -2%;
+        bottom: 15%;
+    }
+    .showcase_item img {
+        min-height: 35vh;
+    }
+}
+@media(max-width:1500px){
+    .Samsung {
+        width: 65%;
+        right: 0;
+        bottom: 10%;
+    }
+}
+@media(max-width:1024px){
+    svg text {
+        font-size: 135px;
+    }
+    .Samsung {
+        width: 60%;
+        bottom: 16%;
+    }
+    .iphone {
+        width: 25%;
+        right: 10%;
+    }
+    .showcase_item img {
+        min-height: 32vh;
+    }
+    .service_details ul {
+        margin-left: 15%;
+    }
+}
+@media(min-width:769px) and (max-width:992px){
+    .iphone {
+        width: 28%;
+        bottom: 10%;
+        right: 10%;
+    }
+    .Samsung {
+        width: 60%;
+        bottom: 16%;
+    }
+    svg text {
+        font-size: 135px;
+    }
+    .showcase_item img {
+        min-height: 32vh;
+    }
+    .service_details ul {
+        margin-left: 15%;
+    }
+}
+@media(min-width:577px) and (max-width:768px){
+    .navbar-nav{
+        text-align: center;
+        margin-top: 20px;
+    }
+    svg text {
+        font-size: 73px;
+    }
+    .phone {
+        position: static;
+        margin: 30px auto 25px auto;
+    }
+    .iphone {
+        width: 45%;
+    }
+    .height{
+        flex-direction: column-reverse;
+    }
+    .Samsung {
+        width: 100%;
+    }
+    
+    .content h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .content h1 {
+        padding-bottom: 15px;
+        font-size: 55px;
+    }
+    .content p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .features_item {
+        margin: auto;
+    }
+    .service_details ul {
+        list-style: none;
+        margin-left: 9%;
+    }
+    .service_question .box_item {
+        margin: 30px 75px;
+       
+        min-height: 35vh;
+    }
+    .box_item ul li img {
+        width: 50%;
+    }
+}
+@media(max-width:576px){
+    .navbar-brand {
+        width: 130px;
+    }
+    .navbar-nav{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    svg text {
+        font-size: 77px;
+    }
+    .phone {
+        position: static;
+        margin: 30px auto 25px auto;
+    }
+    .iphone {
+        width: 30%;
+    }
+    .height{
+        flex-direction: column-reverse;
+    }
+    .content h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .content h1 {
+        padding-bottom: 15px;
+        font-size: 65px;
+    }
+    .content p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .Samsung {
+        width: 90%;
+    }
+    .success_customize{
+        flex-direction: column-reverse;
+    }
+    .service_question .box_item {
+        margin: 30px 60px;
+    }
+    .service_details {
+        margin: 30px 50px 40px;
+    }
+}
+@media(max-width:430px){
+    svg text {
+        font-size:60px;
+    }
+    .iphone {
+        width: 40%;
+    }
+    .Samsung {
+        width: 100%;
+    }
+    .heading h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .service_details {
+        margin: 30px 10px 40px;
+    }
+
+}
+@media(max-width:390px){
+    svg text {
+        font-size: 48px;
+    }
+    .iphone {
+        width: 49%;
+    }
+    .Samsung {
+        margin-bottom: 80px;
+    }
+    .showcase_item img {
+        width: 100%;
+        min-height: 38vh;
+    }
+    .showcase_box:hover .showcase_item::before{
+        height:50%;
+    }
+    .service_details {
+        margin: 30px 0px 40px;
+    }
+}
+@media(max-width:320px){
+    svg text {
+        font-size: 40px;
+    }
+    .content h1 {
+        font-size: 55px;
+    }
+    .service_details ul {
+        list-style: none;
+        margin-left: 10%;
+    }
+    .service_question .box_item {
+        margin: 30px 25px;
+    }
+}
+
